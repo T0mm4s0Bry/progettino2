@@ -8,5 +8,9 @@ def aggiungi():
 def visualizza():
     print(Listaspesa)
 
+def elimina():
+ id = int(print("inserisci l'id del prodotto che vuoi rimuovere"))
+ Listaspesa.pop (id - 1)
+
 
                         
