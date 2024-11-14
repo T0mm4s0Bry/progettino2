@@ -15,4 +15,10 @@ def elimina():
 def conta ():
     print(len(Listaspesa))
 
+def svuota ():
+    Listaspesa.clear()
+    print("lista della spesa svuotata")
+
+
+
                         
