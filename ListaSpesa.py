@@ -20,13 +20,13 @@ def svuota ():
     print("lista della spesa svuotata")
 
 while True:
-    numero = int(input("Inserisci un numero di questi: "))
+    numero = int(input("Inserisci un numero di questi: \n0. esci\n1. aggiungi\n2. visualizza\n3. elimina\n4. conta\n5. svuota\n2 "))
     if numero == 0:
         break  
     elif numero == 1:
         aggiungi()
     elif numero == 2:
-        visualizza>()
+        visualizza()
     elif numero == 3:
         elimina()
     elif numero == 4:
