@@ -20,18 +20,16 @@ def svuota ():
     print("lista della spesa svuotata")
 
 while True:
-    numero = int(input("Inserisci un numero intero (0 per terminare): "))
+    numero = int(input("Inserisci un numero di questi: "))
     if numero == 0:
         break  
     elif numero == 1:
-        (aggiungi)
+        aggiungi()
     elif numero == 2:
-        (visualizza)
+        visualizza>()
     elif numero == 3:
-        (elimina)
+        elimina()
     elif numero == 4:
-        (conta)
+        conta()
     elif numero == 5:
-        (svuota)
-
-                        
+        svuota()
