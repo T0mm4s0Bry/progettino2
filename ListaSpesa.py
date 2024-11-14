@@ -12,5 +12,7 @@ def elimina():
  id = int(print("inserisci l'id del prodotto che vuoi rimuovere"))
  Listaspesa.pop (id - 1)
 
+def conta ():
+    print(len(Listaspesa))
 
                         
