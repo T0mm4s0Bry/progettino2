@@ -5,5 +5,8 @@ def aggiungi():
         prodotti = input("inserisci il prodotto: ")
         Listaspesa.append(prodotti)
 
+def visualizza():
+    print(Listaspesa)
+
 
                         
