@@ -19,6 +19,19 @@ def svuota ():
     Listaspesa.clear()
     print("lista della spesa svuotata")
 
-
+while True:
+    numero = int(input("Inserisci un numero intero (0 per terminare): "))
+    if numero == 0:
+        break  
+    elif numero == 1:
+        (aggiungi)
+    elif numero == 2:
+        (visualizza)
+    elif numero == 3:
+        (elimina)
+    elif numero == 4:
+        (conta)
+    elif numero == 5:
+        (svuota)
 
                         
