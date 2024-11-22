@@ -1,0 +1,19 @@
+<div>
+    <h1>Lista della Spesa</h1>
+    <div *ngIf="lista.length; else listaVuota">
+      <ul>
+        <li *ngFor="let item of lista; let i = index">
+          {{ item }}
+          <button (click)="rimuoviElemento(i)">Rimuovi</button>
+        </li>
+      </ul>
+      <button (click)="svuotaLista()">Svuota Lista</button>
+    </div>
+    <ng-template #listaVuota>
+      <p>La lista è vuota.</p>
+    </ng-template>
+  
+    <input [(ngModel)]="nuovoElemento" placeholder="Aggiungi elemento" />
+    <button (click)="aggiungiElemento()">Aggiungi</button>
+  </div>
+
